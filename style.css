@@ -4,7 +4,7 @@ body {
     align-items: center;
 }
 
-.top-container {
+.main-container {
     background-color: #1F2937;
     flex-grow: 1;
 }
