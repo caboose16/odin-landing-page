@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-container {
+    background-color: #1F2937;
+    flex-grow: 1;
+}
+
+.header {
+    display: flex;
+    gap: 16px;
+    min-width: 750px;
+    size: 24px;
+}
+
+.header > span {
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+}
+
+.header-links > li {
+    list-style: none;
+}
+
+.header-links > li > a {
+    color: #E5E7EB;
+    size: 18px;
+    text-decoration: none;
+}
