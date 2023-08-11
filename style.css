@@ -90,6 +90,32 @@ body {
     width: 475px;
 }
 
+.quote-container {
+    align-items: center;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    width: 100%;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 5px;
+    width: 750px;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-size: 36px;
+    margin-top: 0;
+    text-align: right;
+    width: 750px;
+}
+
 .footer {
     align-self: stretch;
     background-color: #1F2937;
