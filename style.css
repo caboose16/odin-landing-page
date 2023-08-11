@@ -89,3 +89,17 @@ body {
     text-align: center;
     width: 475px;
 }
+
+.footer {
+    align-self: stretch;
+    background-color: #1F2937;
+    margin-top: auto;
+}
+
+.footer > p {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 36px 0;
+    text-align: center;
+}
