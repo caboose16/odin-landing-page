@@ -50,12 +50,15 @@ body {
     flex-direction: row;
     align-items: center;
     gap: 50px;
-    margin: 100px;
+    justify-content: center;
+    margin: 100px 0px;
+    width: 1125px;
 }
 
 .main-text {
     display: flex;
     flex-direction: column;
+    margin-right: auto;
     width: 475px;
 }
 
@@ -63,6 +66,7 @@ body {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 
@@ -85,10 +89,10 @@ body {
 
 .main-image {
     background-color: white;
-    height: 200px;
-    line-height: 200px;
+    height: 225px;
+    line-height: 225px;
     text-align: center;
-    width: 475px;
+    width: 500px;
 }
 
 .information-container {
