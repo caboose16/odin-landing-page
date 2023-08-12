@@ -25,6 +25,7 @@ body {
 .header > span {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: 800;
     margin-right: auto;
 }
 
@@ -40,7 +41,7 @@ body {
 .header-links > li > a {
     color: #E5E7EB;
     font-size: 18px;
-    font-weight: lighter;
+    font-weight: 300;
     text-decoration: none;
 }
 
@@ -68,7 +69,7 @@ body {
 .main-subtext {
     color: #E5E7EB;
     font-size: 18px;
-    font-weight: lighter;
+    font-weight: 300;
     margin: 10px 0;
 }
 
@@ -113,7 +114,7 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 165px;
 }
 
 .information-item > img {
@@ -124,7 +125,11 @@ body {
 }
 
 .information-item > p {
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: 400;
     margin-top: 10px;
+    text-align: center;
 }
 
 .quote-container {
@@ -140,7 +145,7 @@ body {
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 300;
     margin-bottom: 5px;
     width: 750px;
 }
@@ -162,7 +167,6 @@ body {
 .footer > p {
     color: #E5E7EB;
     font-size: 18px;
-    font-weight: lighter;
     margin: 36px 0;
     text-align: center;
 }
@@ -181,14 +185,15 @@ body {
 
 .sign-up-header {
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 24px;
+    font-weight: 700;
     margin-bottom: 0;
 }
 
 .sign-up-subtext {
     color: #E5E7EB;
     font-size: 18px;
-    font-weight: lighter;
+    font-weight: 300;
     margin-top: 0;
 }
 
